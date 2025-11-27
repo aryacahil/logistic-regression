@@ -4,6 +4,8 @@
 
 ### *Machine Learning Project for Educational Purpose*
 
+---
+
 ## 🤝 Contributors
 
 | Nama | NIM | GitHub |
