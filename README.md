@@ -1,182 +1,83 @@
-📘 Logistic Regression – Student Graduation Prediction
+Logistic Regression – Student Graduation Prediction
+Machine Learning Project for Educational Purpose
+Overview
 
-This project implements Logistic Regression to predict whether a student will PASS (1) or FAIL (0) based on several features from the dataset.
-The model is created for learning purposes, focusing on understanding the basic theory and implementation of Logistic Regression.
+This project demonstrates how to use Logistic Regression to predict whether a student will PASS (1) or FAIL (0) based on study hours and midterm exam scores.
+The project includes theory explanation, implementation, model training, and evaluation.
 
-📂 Project Structure
-📁 project/
+Project Structure
+project/
 │── logistic_regression.ipynb
 │── dataset_siswa.csv
 │── README.md
 
-📊 Dataset Description
-
-The file dataset_siswa.csv contains:
-
-x1 → Study hours per week
-
-x2 → Midterm exam score (UTS)
-
-y → Graduation status (0 = Fail, 1 = Pass)
-
-The goal is to train a model that predicts y.
-
-🔍 Project Objectives
-
-Understand the concept of Logistic Regression
-
-Implement the sigmoid function and cost function
-
-Train a binary classification model
-
-Perform prediction and evaluate the model
-
-🧠 Logistic Regression Theory
+Dataset Description
+Column	Description
+x1	Study hours per week
+x2	Midterm exam score (UTS)
+y	Graduation result (0 = Fail, 1 = Pass)
+Theory Summary
 1. Linear Function
-𝑧
-=
-𝑤
-1
-𝑥
-1
-+
-𝑤
-2
-𝑥
-2
-+
-𝑏
-z=w
-1
-	​
+z = w1*x1 + w2*x2 + b
 
-x
-1
-	​
-
-+w
-2
-	​
-
-x
-2
-	​
-
-+b
-2. Sigmoid Function (Hypothesis)
-ℎ
-(
-𝑥
-)
-=
-1
-1
-+
-𝑒
-−
-𝑧
-h(x)=
-1+e
-−z
-1
-	​
-
-
-The sigmoid outputs a probability between 0 and 1.
+2. Sigmoid Function
+h(x) = 1 / (1 + e^-z)
 
 3. Cost Function
-𝐶
-𝑜
-𝑠
-𝑡
-=
-−
-[
-𝑦
-log
-⁡
-(
-ℎ
-(
-𝑥
-)
-)
-+
-(
-1
-−
-𝑦
-)
-log
-⁡
-(
-1
-−
-ℎ
-(
-𝑥
-)
-)
-]
-Cost=−[ylog(h(x))+(1−y)log(1−h(x))]
+Cost = - [ y*log(h(x)) + (1 - y)*log(1 - h(x)) ]
 
-Used to measure model error — lower cost means better performance.
+4. Prediction Rule
 
-🛠️ Technologies Used
+If h(x) ≥ 0.5 → PASS (1)
+
+If h(x) < 0.5 → FAIL (0)
+
+Tech Stack
 
 Python 3
 
-Jupyter Notebook
+NumPy
 
 Pandas
 
-NumPy
-
 Scikit-Learn
 
-Matplotlib / Seaborn (optional)
+Matplotlib / Seaborn
 
-▶️ How to Run the Project
+Jupyter Notebook
 
-Install dependencies:
-
+How to Run
+1. Install dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn
 
-
-Launch Jupyter Notebook:
-
+2. Launch Jupyter Notebook
 jupyter notebook
 
-
-Open:
-
+3. Open the file
 logistic_regression.ipynb
 
-
-Run each cell step-by-step.
-
-📈 Notebook Workflow
+Notebook Workflow
 
 Load dataset
 
-Perform Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 
-Preprocess data
+Preprocessing
 
-Train Logistic Regression model
+Build logistic regression model
 
-Evaluate performance (accuracy & confusion matrix)
+Evaluate model performance
 
-Make predictions
+Predict student graduation
 
-🎯 Main Outputs
+Example Output
 
-Predicted probability of passing
+Predicted probability: 0.87
 
-Pass / Fail classification
+Classification: PASS
 
-Evaluation metrics and visualization
+Accuracy and confusion matrix included in notebook
 
-📌 Notes
+Notes
 
-This project is designed for educational purposes, helping students understand how Logistic Regression works both mathematically and programmatically.
+This project is created for educational purposes and aims to make Logistic Regression easy to understand for beginners.
