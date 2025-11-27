@@ -1,8 +1,12 @@
 ---
 
-# Logistic Regression – Student Graduation Prediction
+<div align="center">
 
-### Machine Learning Project for Educational Purpose
+# **Logistic Regression – Student Graduation Prediction**
+
+### *Machine Learning Project for Educational Purpose*
+
+</div>
 
 ## Overview
 
