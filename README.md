@@ -19,6 +19,9 @@ The project includes theory explanation, implementation, model training, and eva
 
 ```
 project/
+│── logistic regression.mp4
+│── Logistic Regression.pdf
+│── kerangka berpikir.png
 │── logistic_regression.ipynb
 │── dataset_siswa.csv
 │── README.md
