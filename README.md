@@ -16,6 +16,13 @@ Terima kasih kepada kontributor luar biasa ini yang telah membantu proyek ini!
 
 ---
 
+## Overview
+
+This project demonstrates how to use Logistic Regression to predict whether a student will **PASS (1)** atau **FAIL (0)** based on study hours and midterm exam scores.
+The project includes theory explanation, implementation, model training, and evaluation.
+
+---
+
 ## Project Structure
 
 ```
