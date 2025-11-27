@@ -6,8 +6,6 @@
 
 ## 🤝 Contributors
 
-Terima kasih kepada kontributor luar biasa ini yang telah membantu proyek ini!
-
 | Nama | NIM | GitHub |
 | :--- | :--- | :--- |
 | Arya Dwipa Mukti | **[233307037]** | [aryacahil](https://github.com/aryacahil) |
