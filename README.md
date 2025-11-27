@@ -1,12 +1,8 @@
 ---
 
-<div align="center">
-
 # **Logistic Regression – Student Graduation Prediction**
 
 ### *Machine Learning Project for Educational Purpose*
-
-</div>
 
 --- 
 
@@ -20,10 +16,15 @@ Terima kasih kepada kontributor luar biasa ini yang telah membantu proyek ini!
 
 ---
 
-## Overview
+## 🤝 Contributors
 
-This project demonstrates how to use Logistic Regression to predict whether a student will **PASS (1)** or **FAIL (0)** based on study hours and midterm exam scores.
-The project includes theory explanation, implementation, model training, and evaluation.
+Terima kasih kepada kontributor luar biasa ini yang telah membantu proyek ini!
+
+| Nama | NIM | GitHub |
+| :--- | :--- | :--- |
+| Arya Dwipa Mukti | **[233307037]** | [aryacahil](https://github.com/aryacahil) |
+| Muhammad Daffa Samudra | **[233307054]** | [daffasamudra](https://github.com/daffasamudra) |
+| Wisnu Adi Pradana | **[233307059]** | [wisnubaik](https://github.com/wisnubaik) |
 
 ---
 
