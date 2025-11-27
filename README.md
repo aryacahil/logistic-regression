@@ -4,18 +4,6 @@
 
 ### *Machine Learning Project for Educational Purpose*
 
---- 
-
-## 🤝 Contributors
-
-Terima kasih kepada kontributor luar biasa ini yang telah membantu proyek ini!
-
-* **[Arya Dwipa Mukti](https://github.com/aryacahil)** 
-* **[Wisnu Adi Pradana](https://github.com/username-kontributor-lain)** *
-* **[Daffa Samudra](https://github.com/daffasamudra)** 
-
----
-
 ## 🤝 Contributors
 
 Terima kasih kepada kontributor luar biasa ini yang telah membantu proyek ini!
