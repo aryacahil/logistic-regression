@@ -6,7 +6,7 @@
 
 ---
 
-## 🤝 Contributors
+## Contributors
 
 | Nama | NIM | GitHub |
 | :--- | :--- | :--- |
