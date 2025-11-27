@@ -8,6 +8,18 @@
 
 </div>
 
+--- 
+
+## 🤝 Contributors
+
+Terima kasih kepada kontributor luar biasa ini yang telah membantu proyek ini!
+
+* **[Arya Dwipa Mukti](https://github.com/aryacahil)** 
+* **[Wisnu Adi Pradana](https://github.com/username-kontributor-lain)** *
+* **[Daffa Samudra](https://github.com/daffasamudra)** 
+
+---
+
 ## Overview
 
 This project demonstrates how to use Logistic Regression to predict whether a student will **PASS (1)** or **FAIL (0)** based on study hours and midterm exam scores.
@@ -19,12 +31,12 @@ The project includes theory explanation, implementation, model training, and eva
 
 ```
 project/
-│── logistic regression.mp4
-│── Logistic Regression.pdf
-│── kerangka berpikir.png
-│── logistic_regression.ipynb
+│── README.MD
 │── dataset_siswa.csv
-│── README.md
+│── kerangka berpikir.png
+│── logistic regression.mp4
+│── logistic regression.pdf
+│── logistic_regression.ipynb
 ```
 
 ---
